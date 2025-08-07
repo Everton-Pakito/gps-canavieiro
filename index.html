@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>GPS Pakito</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body>
+<header><h1>GPS Pakito</h1></header>
+<main>
+  <div id="map" aria-label="mapa"></div>
+  <div class="controls">
+    <button id="btnStart">⏺️ Gravar Rota</button>
+    <button id="btnStop" disabled>⏹️ Parar</button>
+    <button id="btnExport" disabled>📤 Exportar</button>
+    <a class="btn" id="btnGallery" href="galeria.html">📂 Galeria</a>
+  </div>
+  <div id="status" class="status"></div>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/gpx-exporter.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

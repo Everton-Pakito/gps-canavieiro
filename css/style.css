@@ -1,0 +1,17 @@
+/* GPS Pakito - tema claro fixo */
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;background:#fafafa;color:#222}
+header{background:#fff;border-bottom:1px solid #eee;padding:12px;text-align:center;position:sticky;top:0;z-index:1000}
+h1{margin:0;font-size:18px;color:#00796b}
+#map{height:55vh;width:100%}
+.controls{display:flex;gap:8px;justify-content:center;padding:12px}
+.controls .btn{padding:8px 12px;background:#e0f2f1;border-radius:8px;text-decoration:none;color:#004d40}
+button{padding:8px 12px;border-radius:8px;border:0;background:#00796b;color:#fff;cursor:pointer}
+button:disabled{opacity:0.5}
+.status{padding:8px;text-align:center;color:#555}
+.rota-card{display:flex;gap:12px;align-items:flex-start;background:#fff;margin:12px;padding:12px;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.rota-card .meta{flex:1;text-align:left}
+.mini-map{width:180px;height:100px;border-radius:6px;overflow:hidden;border:1px solid #eee}
+.card-actions{display:flex;gap:6px;margin-top:8px}
+.btn{display:inline-block;padding:8px 10px;background:#fff;border-radius:8px;border:1px solid #ddd;color:#333;text-decoration:none}
+.actions{padding:12px;text-align:center}
